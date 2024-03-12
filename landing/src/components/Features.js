@@ -75,7 +75,7 @@ import {
   
           <div className="relative">
             <h2 className="text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-              A better way to send money
+              Our Unique Win-Win Approach to Carbon Offsetting
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in,
@@ -85,7 +85,7 @@ import {
   
           <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="relative">
-              <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Transfer funds world-wide</h3>
+              <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Addressing Corporate Emissions</h3>
               <p className="mt-3 text-lg text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores
                 officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere.
@@ -96,7 +96,7 @@ import {
                 {transferFeatures.map((item) => (
                   <div key={item.id} className="relative">
                     <dt>
-                      <div className="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white">
+                      <div className="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-green-500 text-white">
                         <item.icon className="h-8 w-8" aria-hidden="true" />
                       </div>
                       <p className="ml-16 text-lg font-medium leading-6 text-gray-900">{item.name}</p>
@@ -164,7 +164,7 @@ import {
           <div className="relative mt-12 sm:mt-16 lg:mt-24">
             <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
               <div className="lg:col-start-2">
-                <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Always in the loop</h3>
+                <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Elevating Farmer Sustainability</h3>
                 <p className="mt-3 text-lg text-gray-500">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ex obcaecati natus eligendi delectus,
                   cum deleniti sunt in labore nihil quod quibusdam expedita nemo.
@@ -174,7 +174,7 @@ import {
                   {communicationFeatures.map((item) => (
                     <div key={item.id} className="relative">
                       <dt>
-                        <div className="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-indigo-500 text-white">
+                        <div className="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-green-500 text-white">
                           <item.icon className="h-8 w-8" aria-hidden="true" />
                         </div>
                         <p className="ml-16 text-lg font-medium leading-6 text-gray-900">{item.name}</p>

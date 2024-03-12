@@ -5,7 +5,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "UtilityHarvest",
+  title: "UtilityHarvest - Carbon Offsetting Agriculturally",
   description: "Precision in Carbon Offsetting - Transform Your Scope 3 Challenge into Sustainable Impact",
 };
 

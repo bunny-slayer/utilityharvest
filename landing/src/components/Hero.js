@@ -24,7 +24,7 @@ export default function Hero() {
                 <img
                   alt="Your Company"
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600"
                 />
               </a>
               <button
@@ -53,7 +53,7 @@ export default function Hero() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=600"
                   alt=""
                 />
               </a>
@@ -110,18 +110,17 @@ export default function Hero() {
                 <div className="hidden sm:mb-10 sm:flex">
                 </div>
                 <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  Data to enrich your online business
+                  Precision in Carbon Offsetting
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
+                  Transform Your Scope 3 Emission Challenge into Sustainable Impact for Farmers through Carbon Credits
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
                     href="#"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                   >
-                    Get started
+                    Learn More
                   </a>
                 </div>
               </div>
