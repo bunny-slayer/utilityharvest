@@ -1,6 +1,6 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
-export default function Example() {
+export default function Content() {
   return (
     <div className="relative bg-white">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
