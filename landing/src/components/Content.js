@@ -17,11 +17,6 @@ export default function Content() {
           <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
             <p className="text-base font-semibold leading-7 text-green-600">Utalizing untapped value</p>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Utility Harvest?</h1>
-            <p className="mt-6 text-xl leading-8 text-gray-700">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-              aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-              egestas fringilla sapien.
-            </p>
             <div className="mt-10 max-w-xl text-base leading-7 text-gray-700 lg:max-w-none">
               <p>
                 Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
@@ -52,12 +47,14 @@ export default function Content() {
                     vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
                   </span>
                 </li>
+                <li className="flex gap-x-3">
+                  <ServerIcon className="mt-1 h-5 w-5 flex-none text-green-600" aria-hidden="true" />
+                  <span>
+                    <strong className="font-semibold text-gray-900">Database backups.</strong> Ac tincidunt sapien
+                    vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.
+                  </span>
+                </li>
               </ul>
-              <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-                fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-                adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-              </p>
             </div>
           </div>
         </div>

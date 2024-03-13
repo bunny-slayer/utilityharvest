@@ -1,17 +1,6 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
+import Image from 'next/image'
+import FullLogo from '../../public/fulllogo.png'
+
 const navigation = {
     solutions: [
       { name: 'Marketing', href: '#' },
@@ -110,10 +99,10 @@ const navigation = {
         </h2>
         <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-            <img
-              className="h-7"
-              src="https://tailwindui.com/img/logos/mark.svg?color=green&shade=500"
-              alt="Company name"
+            <Image
+              className="h-16 w-auto"
+              src={FullLogo}
+              alt="UtilityHarvest Logo"
             />
             <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
               <div className="md:grid md:grid-cols-2 md:gap-8">
