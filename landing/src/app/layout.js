@@ -1,6 +1,8 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { HotjarSnippet } from "../controller/HotjarSnippet";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +22,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <HotjarSnippet />
+      </body>
       <GoogleAnalytics gaId="G-3G656JS04H" />
     </html>
   );
