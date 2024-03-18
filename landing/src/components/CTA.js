@@ -1,3 +1,6 @@
+import Images from "next/image";
+import SmallLogo from "../../public/smalllogo.png";
+
 export default function Calltoaction() {
   return (
     <div className="bg-white">
@@ -9,17 +12,17 @@ export default function Calltoaction() {
                 <span className="block">Create your impact</span>
                 <span className="block">Reserve your credits today</span>
               </h2>
-              <p className="mt-4 text-lg leading-6 text-green-200">
-                Ready to make a measurable difference?
+              <div className="mt-4 text-lg leading-6 text-green-200">
+                <p>Ready to make a measurable difference?</p>
                 <p>Contact UtilityHarvest to explore how our carbon credits can align with your sustainability objectives.</p>
-              </p>
-              <a href="#" className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-green-600 shadow hover:bg-green-50">
+              </div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAEvnZpnfl9zjS0UBLevy59Ah9rDEF6QDVkQJjVvBKELUjaQ/viewform?usp=sf_link" className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-green-600 shadow hover:bg-green-50">
                 Inquire and Reserve Now
               </a>
             </div>
           </div>
           <div className="aspect-h-3 aspect-w-5 -mt-6 md:aspect-h-1 md:aspect-w-2">
-            <img className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg" alt="App screenshot" />
+            <Images className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src={SmallLogo} width={500} height={500} alt="App screenshot" />
           </div>
         </div>
       </div>

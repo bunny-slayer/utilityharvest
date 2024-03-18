@@ -1,43 +1,41 @@
 import { BoltIcon, ChatBubbleBottomCenterTextIcon, EnvelopeIcon, GlobeAltIcon, ScaleIcon } from "@heroicons/react/24/outline";
 
+import emissions from '../../public/emissions.jpg'
+import farmer from '../../public/farmers.jpg'
+import Images from 'next/image'
+
 const transferFeatures = [
   {
     id: 1,
-    name: "Competitive exchange rates",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    name: "Carbon offset while promoting local agriculture",
+    description: "We acquire our carbon credits from encouraging South-East Asian farmers in practices that are sustainable and eco-friendly. This not only helps in reducing carbon emissions but also supports local agricultural communities.",
     icon: GlobeAltIcon,
   },
   {
     id: 2,
-    name: "No hidden fees",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    name: "Reliable and tracable with marketable value",
+    description: "Using the latest DMRV technologies, we ensure the most tracable and transparent credit of carbon offsetting.",
     icon: ScaleIcon,
-  },
-  {
-    id: 3,
-    name: "Transfers are instant",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: BoltIcon,
   },
 ];
 const communicationFeatures = [
   {
     id: 1,
-    name: "Mobile notifications",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    name: "Gain extra income from carbon credits",
+    description: "Carbon credit sales provide you with extra income to support your farming activities and improve your livelihood.",
     icon: ChatBubbleBottomCenterTextIcon,
   },
   {
     id: 2,
-    name: "Reminder emails",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+    name: "Improve local communities and the environment long-term through sustainable practices",
+    description: "Adaptation of sustainable practices not only helps in reducing carbon emissions but also supports local agricultural communities.",
     icon: EnvelopeIcon,
   },
 ];
 
 export default function Features() {
   return (
-    <div className="overflow-hidden bg-gray-50 py-16 lg:py-24">
+    <div id="featuresection" className="overflow-hidden bg-gray-50 py-16 lg:py-24">
       <div className="relative mx-auto max-w-xl px-6 lg:max-w-7xl lg:px-8">
         <svg className="absolute left-full hidden -translate-x-1/2 -translate-y-1/4 transform lg:block" width={404} height={784} fill="none" viewBox="0 0 404 784" aria-hidden="true">
           <defs>
@@ -50,7 +48,7 @@ export default function Features() {
 
         <div className="relative">
           <h2 className="text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">Our Unique Win-Win Approach to Carbon Offsetting</h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">UtilityHarvest collaborates with Southeast Asian farmers to produce highly accurate and reliable carbon credits. Our mission is to enable corporations to effectively counterbalance their Scope 3 emissions, turning environmental responsibility into a tangible asset.</p>
+          <p className="mx-auto mt-4 max-w-4xl text-center text-xl text-gray-500">UtilityHarvest collaborates with Southeast Asian farmers to produce highly accurate and reliable carbon credits. Our mission is to enable corporations to effectively counterbalance their Scope 3 emissions, turning environmental responsibility into a tangible asset.</p>
         </div>
 
         <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
@@ -82,7 +80,7 @@ export default function Features() {
               </defs>
               <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
             </svg>
-            <img className="relative mx-auto" width={490} src="https://tailwindui.com/img/features/feature-example-1.png" alt="" />
+            <Images className="relative mx-auto rounded-md" src={emissions} width={500} height={500} alt="" />
           </div>
         </div>
 
@@ -125,7 +123,7 @@ export default function Features() {
                 </defs>
                 <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
               </svg>
-              <img className="relative mx-auto" width={490} src="https://tailwindui.com/img/features/feature-example-2.png" alt="" />
+              <Images className="relative mx-auto rounded-md" src={farmer} width={500} height={500} alt="" />
             </div>
           </div>
         </div>
