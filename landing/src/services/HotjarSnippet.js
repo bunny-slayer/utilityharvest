@@ -1,10 +1,9 @@
 "use client";
-import Script from "next/script";
 
 export const HotjarSnippet = () => {
   return (
     <div>
-      <Script id="hotjar-snippet">
+      <script id="hotjar-snippet">
         {`
           (function(h,o,t,j,a,r){
             h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -15,7 +14,7 @@ export const HotjarSnippet = () => {
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
         `}
-      </Script>
+      </script>
     </div>
   );
 };
