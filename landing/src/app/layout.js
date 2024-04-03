@@ -1,7 +1,8 @@
-import { Inter } from "next/font/google";
+import { Cookie, Inter } from "next/font/google";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { HotjarSnippet } from "../services/HotjarSnippet";
+import { CookieConsent } from "../services/Cookies";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +24,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <GoogleAnalytics gaId="G-3G656JS04H" />
       <body className={inter.className}>
-        {children}
+        <CookieConsent />
         <HotjarSnippet />
+        {children}
       </body>
     </html>
   );

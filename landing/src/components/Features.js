@@ -96,8 +96,8 @@ export default function Features() {
         <div className="relative mt-12 sm:mt-16 lg:mt-24">
           <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:items-center lg:gap-8">
             <div className="lg:col-start-2">
-              <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Elevating Farmer Sustainability</h3>
-              <p className="mt-3 text-lg text-gray-500">Our partnership with Southeast Asian farmers not only contributes to global decarbonization but also supports local agricultural communities.</p>
+              <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">Support and Elevate Farmer Communities</h3>
+              <p className="mt-3 text-lg text-gray-500">Purchasing credits from Southeast Asian farmers communities not only contributes to global decarbonization but also elevates agricultural communities.</p>
 
               <dl className="mt-10 space-y-10">
                 {communicationFeatures.map((item) => (

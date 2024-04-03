@@ -14,11 +14,11 @@ export default function Hero() {
             <div className="relative px-6 py-24 sm:py-36 lg:px-8 lg:py-48 lg:pr-0">
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex"></div>
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Precision in Carbon Offsetting</h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">Transform Your Scope 3 Emission Challenge into Sustainable Impact for Farmers through Carbon Credits</p>
+                <h1 className="text-4xl font-bold text-gray-900 sm:text-6xl">Precision and Impact in Carbon Offsetting</h1>
+                <p className="mt-6 text-lg leading-8 text-gray-600">Enhance Your Brand Image With Accurate and Credible Offsets, Rooted in Tangible Agriculture Projects Across Southeast Asia.</p>
                 <div className="mt-10 flex items-center gap-x-6">
-                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAEvnZpnfl9zjS0UBLevy59Ah9rDEF6QDVkQJjVvBKELUjaQ/viewform?usp=sf_link" className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">
-                    Make an Impact Now
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAEvnZpnfl9zjS0UBLevy59Ah9rDEF6QDVkQJjVvBKELUjaQ/viewform?usp=sf_link" className="rounded-md bg-green-600 px-3.5 py-2.5 text-s font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600">
+                    Offset Reliably & Impactfully Now
                   </a>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 const navigation = [
   { name: "Our Solution", href: "#featuresection" },
   { name: "Why us", href: "#whyus" },
+  { name: "Q&A", href: "#faq" },
 ];
 
 import Images from 'next/image' 

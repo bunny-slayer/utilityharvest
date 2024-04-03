@@ -9,15 +9,13 @@ export default function Calltoaction() {
           <div className="px-6 pb-12 pt-10 sm:px-16 sm:pt-16 lg:py-16 lg:pr-0 xl:px-15 xl:py-20">
             <div className="lg:self-center">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                <span className="block">Create your impact</span>
-                <span className="block">Reserve your credits today</span>
+                <span className="block">Ready to make a measurable difference?</span>
               </h2>
               <div className="mt-4 text-lg leading-6 text-green-200">
-                <p>Ready to make a measurable difference?</p>
                 <p>Contact UtilityHarvest to explore how our carbon credits can align with your sustainability objectives.</p>
               </div>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAEvnZpnfl9zjS0UBLevy59Ah9rDEF6QDVkQJjVvBKELUjaQ/viewform?usp=sf_link" className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-green-600 shadow hover:bg-green-50">
-                Inquire and Reserve Now
+                Inquire Now
               </a>
             </div>
           </div>
